@@ -2,7 +2,17 @@ package Trim1.practica1;
 
 import java.util.Scanner;
 
+/*
+Hay que hacer un "banco" que tu le das una cantidad de dinero y te lo divide en la cantidad de billetes que te lo da
+siempre priorizando los mas grande para dar la menor cantidad
+ */
 public class Ejercicio4 {
+
+    /*
+    basicmanete le pides el numero de billetes suponiendo que te lo entregan bien el numero, luego eso si es mas de
+    50 lo divide en 50 y eso se guarda en cincuenta, luego el numero que te ha dado guardas en el el resto y asi con
+    todos y luego muestras por pantalla
+     */
     public static void main(String[] args){
 
         Scanner scaner = new Scanner(System.in);
