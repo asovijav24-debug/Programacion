@@ -41,29 +41,35 @@ public class Operaciones {
         return c;
     }
 
-    public static int primos(int a){
-        int c = 0;
-        while(a>0){
-            c += a%10;
-            a = a/10;
+    public static boolean primos (int a){
+        int b = 2;
+        while(b != a){
+            if (a%b == 0){
+                return false;
+            }else{
+                b++;
+            }
+            return true;
         }
-        return c;
+        return false;
     }
 
     public static int factorial(int a){
-        int c = 0;
+        int b = 0;
         while(a>0){
-            c += a%10;
-            a = a/10;
+            if (b == 0)
+                b = a;
+            b *= a;
         }
         return c;
     }
 
-    public static int maxcomundivisor(int a){
+    public static int maxcomundivisor(int a, int b){
         int c = 0;
         while(a>0){
-            c += a%10;
-            a = a/10;
+            int resto = 0;
+
+
         }
         return c;
     }

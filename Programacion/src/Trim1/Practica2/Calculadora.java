@@ -79,6 +79,9 @@ public class Calculadora {
                     System.out.println("El resultado de tu opereacion es: " + Operaciones.sumcifras(l));
                     break;
                 case 8:
+                    System.out.println("INTRODUCE UN NUMERO Y SABRE SI ES PRIMO O NO");
+                    int m = scanner.nextInt();
+                    System.out.println("El resultado de tu opereacion es: " + Operaciones.primos(m));
                     break;
                 case 9:
                     break;
