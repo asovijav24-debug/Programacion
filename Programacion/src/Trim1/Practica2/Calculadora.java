@@ -3,11 +3,15 @@ package Trim1.Practica2;
 import java.util.Scanner;
 
 /*
-Este es el menu de la calculadora con los metodos o funciones metidos en operaciones.java
-con unswitch para selecionar y sacando constantemente el menu
+Vamos a hacer una calculadora con varias opciones en este menu
  */
 public class Calculadora {
 
+
+    /*
+    Este es el menu de la calculadora con los metodos o funciones metidos en operaciones.java
+    con unswitch para selecionar y sacando constantemente el menu
+     */
     public static void main(String[] args){
 
         Scanner scanner = new Scanner(System.in);
@@ -30,6 +34,7 @@ public class Calculadora {
             System.out.println("9  -  CALCULAR EL FACTORIAL DE UN NUMERO");
             System.out.println("10  -  CALCULAR EL MAXIMO DIVISOR DE DOS NUMEROS");
             System.out.println(" ");
+            System.out.print("ELIGE UNA OPCION (0 - 10): ");
             slct = scanner.nextInt();
 
 

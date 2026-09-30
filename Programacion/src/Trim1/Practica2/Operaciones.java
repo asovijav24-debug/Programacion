@@ -51,7 +51,7 @@ public class Operaciones {
     public static int cifras(int a){
         int b = 0;
         int c = 0;
-        while(a>0){
+        while(a > 0){
             b += a%10;
             a = a/10;
             c++;
@@ -64,7 +64,7 @@ public class Operaciones {
      */
     public static int sumcifras(int a){
         int c = 0;
-        while(a>0){
+        while(a > 0){
             c += a%10;
             a = a/10;
         }
@@ -77,7 +77,7 @@ public class Operaciones {
     public static boolean primos (int a){
         int b = 2;
         while(b != a){
-            if (a%b == 0){
+            if (a % b == 0){
                 return false;
             }else{
                 b++;
@@ -92,7 +92,7 @@ public class Operaciones {
      */
     public static int factorial(int a){
         int b = 0;
-        while(a>0){
+        while(a > 0){
             if (b == 0) {
                 b = a;
             }else {
