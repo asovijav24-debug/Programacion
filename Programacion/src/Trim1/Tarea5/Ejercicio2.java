@@ -7,7 +7,7 @@ import java.util.Scanner;
  */
 public class Ejercicio2 {
 
-    /*
+    /*a
 
      */
     public static boolean comparar(double a, double b){

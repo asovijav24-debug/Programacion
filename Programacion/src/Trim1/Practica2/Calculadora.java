@@ -2,6 +2,10 @@ package Trim1.Practica2;
 
 import java.util.Scanner;
 
+/*
+Este es el menu de la calculadora con los metodos o funciones metidos en operaciones.java
+con unswitch para selecionar y sacando constantemente el menu
+ */
 public class Calculadora {
 
     public static void main(String[] args){
@@ -62,30 +66,38 @@ public class Calculadora {
                     System.out.println("El resultado de tu opereacion es: " + Operaciones.dividir(g, h));
                     break;
                 case 5:
-                    System.out.println("INTRODUCE UN NUMERO PARA CALCULAR EL RESTO");
+                    System.out.println("INTRODUCE UN NUMERO: ");
                     int i = scanner.nextInt();
-                    System.out.println("INTRODUCE OTRO PARA RESTO");
+                    System.out.println("INTRODUCE OTRO NUMERO: ");
                     int j = scanner.nextInt();
                     System.out.println("El resultado de tu opereacion es: " + Operaciones.resto(i, j));
                     break;
                 case 6:
-                    System.out.println("INTRODUCE UN NUMERO PARA QUE TE CUENTE EL NUMERO DE CIFRAS DE ESE NUMERO");
-                    String k = scanner.nextLine();
+                    System.out.println("INTRODUCE UN NUMERO: ");
+                    int k = scanner.nextInt();
                     System.out.println("El resultado de tu opereacion es: " + Operaciones.cifras(k));
                     break;
                 case 7:
-                    System.out.println("INTRODUCE UN NUMERO PARA QUE TE CUENTE EL NUMERO DE CIFRAS DE ESE NUMERO");
+                    System.out.println("INTRODUCE UN NUMERO: ");
                     int l = scanner.nextInt();
                     System.out.println("El resultado de tu opereacion es: " + Operaciones.sumcifras(l));
                     break;
                 case 8:
-                    System.out.println("INTRODUCE UN NUMERO Y SABRE SI ES PRIMO O NO");
+                    System.out.println("INTRODUCE UN NUMERO: ");
                     int m = scanner.nextInt();
                     System.out.println("El resultado de tu opereacion es: " + Operaciones.primos(m));
                     break;
                 case 9:
+                    System.out.println("INTRODUCE UN NUMERO: ");
+                    int n = scanner.nextInt();
+                    System.out.println("El resultado de tu opereacion es: " + Operaciones.factorial(n));
                     break;
                 case 10:
+                    System.out.println("DAME EL PRIMER NUMERO: ");
+                    int o = scanner.nextInt();
+                    System.out.println("DAME EL SEGUNDO: ");
+                    int p = scanner.nextInt();
+                    System.out.println("El resultado de tu opereacion es: " + Operaciones.maxcomundivisor(o, p));
                     break;
                 default:
                     System.out.println("OPCION NO VALIDA");
