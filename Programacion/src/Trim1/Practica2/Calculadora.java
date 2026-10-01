@@ -10,16 +10,15 @@ public class Calculadora {
 
     /*
     Este es el menu de la calculadora con los metodos o funciones metidos en operaciones.java
-    con unswitch para selecionar y sacando constantemente el menu
+    con un switch para selecionar y sacando constantemente el menu
      */
     public static void main(String[] args){
 
         Scanner scanner = new Scanner(System.in);
-        int cont = 0;
+
         int slct = -1;
 
         while(slct != 0){
-
             System.out.println("MENU DE OPERACIONES");
             System.out.println("===================");
             System.out.println("0  -  FINALIZAR");
@@ -37,10 +36,8 @@ public class Calculadora {
             System.out.print("ELIGE UNA OPCION (0 - 10): ");
             slct = scanner.nextInt();
 
-
             switch (slct){
                 case 0:
-                    cont++;
                     break;
                 case 1:
                     System.out.println("INTRODUCE UN NUMERO PARA SUMAR");
@@ -108,6 +105,5 @@ public class Calculadora {
                     System.out.println("OPCION NO VALIDA");
             }
         }
-
     }
 }

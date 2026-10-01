@@ -6,7 +6,7 @@ Aqui estan todas las operaciones que se realizaran en el main de calculadora
 public class Operaciones {
 
     /*
-    Suma 2 numero y dvuelve el resultado
+     * Suma 2 numero y dvuelve el resultado
      */
     public static int sumar(int a, int b){
         int c = a + b;
@@ -114,11 +114,4 @@ public class Operaciones {
             }
             return a;
     }
-
-
-
-
-
-
-
 }
