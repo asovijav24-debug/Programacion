@@ -3,7 +3,7 @@ package Trim1.Sistemas;
 
 public class RecorridoPorColumnas {
 
-    private static final int TAMANO = 5_000;
+    private static final int TAMANO = 3_000;
     private static final int REPETICIONES = 5;
 
     public static void main(String[] args) {
