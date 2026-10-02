@@ -3,14 +3,14 @@ package Trim1.Practica2;
 import java.util.Scanner;
 
 /*
-Vamos a hacer una calculadora con varias opciones en este menu
+* Vamos a hacer una calculadora con varias opciones en este menu
  */
 public class Calculadora {
 
 
     /*
-    Este es el menu de la calculadora con los metodos o funciones metidos en operaciones.java
-    con un switch para selecionar y sacando constantemente el menu
+    * Este es el menu de la calculadora con los metodos o funciones metidos en operaciones.java
+    * con un switch para selecionar y sacando constantemente el menu
      */
     public static void main(String[] args){
 

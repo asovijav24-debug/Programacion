@@ -1,7 +1,7 @@
 package Trim1.Practica2;
 
 /*
-Aqui estan todas las operaciones que se realizaran en el main de calculadora
+* Aqui estan todas las operaciones que se realizaran en el main de calculadora
  */
 public class Operaciones {
 
@@ -14,7 +14,7 @@ public class Operaciones {
     }
 
     /*
-    Resta 2 numero y devuelve el resultado
+    * Resta 2 numero y devuelve el resultado
      */
     public static int restar(int a, int b){
         int c = a - b;
@@ -22,7 +22,7 @@ public class Operaciones {
     }
 
     /*
-    Multiplica 2 numero y devuelve el resultado
+    * Multiplica 2 numero y devuelve el resultado
      */
     public static int multiplicar(int a, int b){
         int c = a * b;
@@ -30,7 +30,7 @@ public class Operaciones {
     }
 
     /*
-    Divide 2 numero y devuelve el resultado
+    * Divide 2 numero y devuelve el resultado
      */
     public static int dividir(int a, int b){
         int c = a / b;
@@ -38,7 +38,7 @@ public class Operaciones {
     }
 
     /*
-    Divide 2 numero y devuelve el resto
+    * Divide 2 numero y devuelve el resto
      */
     public static int resto(int a, int b){
         int c = a % b;
@@ -46,7 +46,7 @@ public class Operaciones {
     }
 
     /*
-    Cuenta la cantidad de cifras que tiene el numero
+    * Cuenta la cantidad de cifras que tiene el numero
      */
     public static int cifras(int a){
         int b = 0;
@@ -60,7 +60,7 @@ public class Operaciones {
     }
 
     /*
-    Suma las cifras de un numero, 123 sumara 1 + 2 + 3
+    * Suma las cifras de un numero, 123 sumara 1 + 2 + 3
      */
     public static int sumcifras(int a){
         int c = 0;
@@ -72,7 +72,7 @@ public class Operaciones {
     }
 
     /*
-    Comprueba si un numero es primo o no y devuelve true o false
+    * Comprueba si un numero es primo o no y devuelve true o false
      */
     public static boolean primos (int a){
         int b = 2;
@@ -88,7 +88,7 @@ public class Operaciones {
     }
 
     /*
-    Saca el factorial de un numero
+    * Saca el factorial de un numero
      */
     public static int factorial(int a){
         int b = 0;
@@ -104,7 +104,7 @@ public class Operaciones {
     }
 
     /*
-    Saca el maximo comun divisor de un numero
+    * Saca el maximo comun divisor de un numero
      */
     public static int maxcomundivisor(int a, int b){
             while (b != 0) {
