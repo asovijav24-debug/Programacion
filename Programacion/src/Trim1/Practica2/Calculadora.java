@@ -7,17 +7,13 @@ import java.util.Scanner;
  */
 public class Calculadora {
 
-
     /*
     * Este es el menu de la calculadora con los metodos o funciones metidos en operaciones.java
     * con un switch para selecionar y sacando constantemente el menu
      */
     public static void main(String[] args){
-
         Scanner scanner = new Scanner(System.in);
-
         int slct = -1;
-
         while(slct != 0){
             System.out.println("MENU DE OPERACIONES");
             System.out.println("===================");
@@ -35,7 +31,6 @@ public class Calculadora {
             System.out.println(" ");
             System.out.print("ELIGE UNA OPCION (0 - 10): ");
             slct = scanner.nextInt();
-
             switch (slct){
                 case 0:
                     break;
